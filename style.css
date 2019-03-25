@@ -1,0 +1,104 @@
+body { 
+    background-color: 	#D3D3D3;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+header { 
+    background-image: url("pics/Broadway2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav h2 {
+    font-size: 4em;
+    color: white;
+    font-weight: bold;
+}
+
+nav span {
+    display: inline;
+    font-size: 2em;
+    color: white;
+    padding: 30px;
+  }
+
+main h2 { 
+    color: navy;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+}  
+
+.intro { 
+    text-align: center;
+    position: relative;
+    margin: 0px 30px;
+}
+
+main li {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+}
+
+
+.coffee {
+    border: 2px solid navy;
+    margin: 20px 5px;
+    text-align: center;
+    padding: 20px 40px;
+    position: relative;
+}
+
+.coffee li {
+    padding-top: 20px;
+}
+
+.food {
+    border: 2px solid navy;
+    margin: 20px 5px;
+    text-align: center;
+    padding: 20px 40px;
+    position: relative;
+}
+
+.food li {
+    padding-top: 20px;
+}
+
+.brewery {
+    border: 2px solid navy;
+    margin: 20px 5px;
+    text-align: center;
+    padding: 20px 40px;
+    position: relative;
+}
+.brewery li {
+    padding-top: 20px;
+}
+
+.broadway {
+    border: 2px solid navy;
+    margin: 20px 5px;
+    text-align: center;
+    padding: 20px 40px;
+    position: relative;
+}
+.broadway li {
+    padding-top: 20px;
+}
+
+footer {
+    float: right;
+    padding-bottom: 10px;
+}
