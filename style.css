@@ -21,9 +21,12 @@ nav h2 {
 nav span {
     display: inline;
     font-size: 2em;
-    color: white;
     padding: 30px;
-  }
+}
+
+nav span a { 
+    color: white;
+}
 
 main h2 { 
     color: navy;
@@ -36,6 +39,10 @@ main h2 {
     text-align: center;
     position: relative;
     margin: 0px 30px;
+}
+
+main ul{ 
+    list-style-type: none;
 }
 
 main li {
@@ -52,7 +59,7 @@ img {
 }
 
 
-.coffee {
+#coffee {
     border: 2px solid navy;
     margin: 20px 5px;
     text-align: center;
@@ -60,11 +67,11 @@ img {
     position: relative;
 }
 
-.coffee li {
+#coffee li {
     padding-top: 20px;
 }
 
-.food {
+#food {
     border: 2px solid navy;
     margin: 20px 5px;
     text-align: center;
@@ -72,29 +79,29 @@ img {
     position: relative;
 }
 
-.food li {
+#food li {
     padding-top: 20px;
 }
 
-.brewery {
+#brewery {
     border: 2px solid navy;
     margin: 20px 5px;
     text-align: center;
     padding: 20px 40px;
     position: relative;
 }
-.brewery li {
+#brewery li {
     padding-top: 20px;
 }
 
-.broadway {
+#broadway {
     border: 2px solid navy;
     margin: 20px 5px;
     text-align: center;
     padding: 20px 40px;
     position: relative;
 }
-.broadway li {
+#broadway li {
     padding-top: 20px;
 }
 
